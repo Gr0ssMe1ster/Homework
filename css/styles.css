@@ -167,6 +167,17 @@ body {
   margin-left: 15px;
 }
 
+.bot-content__btn:hover {
+  background-color: red;
+}
+
+.bot-content__btn:active {
+  position: relative;
+  top: 3px;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
 .bot-content-info-list {
   margin-bottom: 59px;
 }
